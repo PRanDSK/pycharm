@@ -112,8 +112,8 @@ class TestSimple:
         self.driver.maximize_window()
         self.driver.find_element(By.XPATH, "//button[@aria-label='Consent']").click()
 
-        firstName = "Petko"
-        lastName = "Ran"
+        firstName = "Joe"
+        lastName = "Doe"
         email = "petkoran@gmail.com"
         gender = "Male"
         phoneNumber = "1234567890"
